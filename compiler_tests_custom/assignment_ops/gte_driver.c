@@ -1,0 +1,8 @@
+int greater_than_equal_double(double x, double y);
+
+int main() {
+    if (greater_than_equal_double(5.0, 5.0) != 1) return 1;
+    if (greater_than_equal_double(10.5, 5.2) != 1) return 1;
+    if (greater_than_equal_double(3.1, 7.8) != 0) return 1;
+    return 0;
+}
